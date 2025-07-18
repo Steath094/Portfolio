@@ -1,5 +1,5 @@
 import React from 'react';
-import { Code, Palette, Smartphone, Globe } from 'lucide-react';
+import { Code, Palette, Globe } from 'lucide-react';
 
 interface Skill {
   name: string;
