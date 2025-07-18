@@ -60,7 +60,7 @@ const Contact: React.FC = () => {
               <h4 className="text-lg sm:text-xl font-bold mb-2">Email</h4>
               <p className="text-sm sm:text-base text-gray-400 mb-3 sm:mb-4">Direct communication</p>
               <a 
-                href="mailto:john@example.com" 
+                href="mailto:sameerdawoodkhan3@gmail.com" 
                 className="inline-flex items-center space-x-2 text-blue-400 hover:text-blue-300 transition-colors duration-300 text-sm sm:text-base"
               >
                 <span className='text-sm text-center'>sameerdawoodkhan3@gmail.com</span>
