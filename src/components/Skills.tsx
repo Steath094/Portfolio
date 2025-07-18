@@ -14,7 +14,7 @@ const Skills: React.FC = () => {
     { name: 'Node.js', level: 85, icon: Code },
     { name: 'Docker', level: 75, icon: Code },
     { name: 'UI/UX Design', level: 80, icon: Palette },
-    { name: 'Mobile Development', level: 75, icon: Smartphone },
+    // { name: 'Mobile Development', level: 75, icon: Smartphone },
     { name: 'Cloud Services', level: 70, icon: Globe }
   ];
 

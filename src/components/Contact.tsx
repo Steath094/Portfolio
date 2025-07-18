@@ -26,7 +26,8 @@ const Contact: React.FC = () => {
               <h4 className="text-lg sm:text-xl font-bold mb-2">LinkedIn</h4>
               <p className="text-sm sm:text-base text-gray-400 mb-3 sm:mb-4">Professional networking</p>
               <a 
-                href="#" 
+                href="https://www.linkedin.com/in/sameer-dawood-khan-161245232/"
+                target='_blank' 
                 className="inline-flex items-center space-x-2 text-blue-400 hover:text-blue-300 transition-colors duration-300 text-sm sm:text-base"
               >
                 <span>Connect with me</span>
@@ -43,10 +44,11 @@ const Contact: React.FC = () => {
               <h4 className="text-lg sm:text-xl font-bold mb-2">Twitter</h4>
               <p className="text-sm sm:text-base text-gray-400 mb-3 sm:mb-4">Quick conversations</p>
               <a 
-                href="#" 
+                href="https://x.com/steath094"
+                target='_blank' 
                 className="inline-flex items-center space-x-2 text-blue-400 hover:text-blue-300 transition-colors duration-300 text-sm sm:text-base"
               >
-                <span>Ping me @username</span>
+                <span>Ping me @steath094</span>
                 <ExternalLink size={14} className="sm:w-4 sm:h-4" />
               </a>
             </div>
@@ -61,7 +63,7 @@ const Contact: React.FC = () => {
                 href="mailto:john@example.com" 
                 className="inline-flex items-center space-x-2 text-blue-400 hover:text-blue-300 transition-colors duration-300 text-sm sm:text-base"
               >
-                <span>john@example.com</span>
+                <span className='text-sm text-center'>sameerdawoodkhan3@gmail.com</span>
                 <ExternalLink size={14} className="sm:w-4 sm:h-4" />
               </a>
             </div>

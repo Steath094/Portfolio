@@ -13,27 +13,27 @@ interface Project {
 const Projects: React.FC = () => {
   const projects: Project[] = [
     {
-      title: 'E-Commerce Platform',
-      description: 'Full-stack e-commerce solution with React, Node.js, and Stripe integration',
-      tech: ['React', 'Node.js', 'MongoDB', 'Stripe'],
-      image: 'https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=600',
-      github: '#',
-      live: '#'
+      title: 'Recollectly – Knowledge Vault',
+      description: 'A Full-Stack personal knowledge base to collect and organize over 1,000+ digital resources including tweets, blogs, YouTube videos, and PDFs',
+      tech: ['React', 'Node.js', 'MongoDB', "TypeScript"],
+      image: './recollectly.png',
+      github: 'https://github.com/Steath094/Recollectly.AI',
+      live: 'https://recollectlyai.vercel.app/'
     },
     {
-      title: 'Task Management App',
-      description: 'Collaborative task management with real-time updates and team features',
-      tech: ['React', 'Firebase', 'Tailwind CSS'],
-      image: 'https://images.pexels.com/photos/3183153/pexels-photo-3183153.jpeg?auto=compress&cs=tinysrgb&w=600',
-      github: '#',
-      live: '#'
+      title: 'SpaceBasix',
+      description: 'A Role-based hostel platform supporting 2 user types with tailored dashboards, reducing workflow confusion',
+      tech: ['React', 'Tailwind CSS', "Spring Boot", "MongoDB"],
+      image: './spacebasicx.png',
+      github: 'https://github.com/Steath094/SpaceBasix',
+      live: 'https://space-basix.vercel.app/'
     },
     {
-      title: 'Weather Dashboard',
-      description: 'Beautiful weather app with location services and detailed forecasts',
-      tech: ['JavaScript', 'API Integration', 'CSS'],
-      image: 'https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=600',
-      github: '#',
+      title: 'CollabCanvas',
+      description: 'A real-time virtual whiteboard that lets you draw, write, and ideate with others instantly. Create a room, share the link, and watch your team\'s ideas come to life on a shared digital canvas.',
+      tech: ['TypeScript', 'MonoRepo/TurboRepo', 'NextJs','Web Sockets','NodeJS'],
+      image: './collaby.png',
+      github: 'https://github.com/Steath094/DrawApp',
       live: '#'
     }
   ];
@@ -55,14 +55,14 @@ const Projects: React.FC = () => {
                   className="w-full h-40 sm:h-48 object-cover group-hover:scale-110 transition-transform duration-300"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-900/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                <div className="absolute top-2 sm:top-4 right-2 sm:right-4 flex space-x-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  <a href={project.github} className="p-2 bg-slate-800/80 rounded-full hover:bg-blue-600 transition-colors duration-300">
-                    <Github size={14} className="sm:w-4 sm:h-4" />
+                {/* <div className="absolute top-2 sm:top-4 right-2 sm:right-4 flex space-x-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                  <a href={project.github} target='_blank' className="p-2 bg-slate-800/80 rounded-full hover:bg-blue-600 transition-colors duration-300">
+                    <Github size={16} className="sm:w-4 sm:h-4" />
                   </a>
-                  <a href={project.live} className="p-2 bg-slate-800/80 rounded-full hover:bg-emerald-600 transition-colors duration-300">
-                    <ExternalLink size={14} className="sm:w-4 sm:h-4" />
+                  <a href={project.live} target='_blank' className="p-2 bg-slate-800/80 rounded-full hover:bg-emerald-600 transition-colors duration-300">
+                    <ExternalLink size={16} className="sm:w-4 sm:h-4" />
                   </a>
-                </div>
+                </div> */}
               </div>
               
               <div className="p-4 sm:p-6">

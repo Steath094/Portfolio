@@ -20,8 +20,8 @@ const DSA: React.FC = () => {
               fundamentals in data structures and algorithms.
             </p>
             <p className="text-base sm:text-lg text-gray-300 mb-6 sm:mb-8 leading-relaxed">
-              Through regular practice, I've developed skills in dynamic programming, 
-              graph algorithms, tree traversals, and optimization techniques.
+              Through regular practice, I've developed skills in recursion, 
+              binary search, tree traversals, optimization techniques, etc.
             </p>
             
             <a 
@@ -57,7 +57,7 @@ const DSA: React.FC = () => {
               </div>
               <div className="bg-slate-800/50 backdrop-blur-sm p-3 sm:p-6 rounded-xl border border-slate-700/50 text-center">
                 <div className="text-lg sm:text-2xl font-bold text-blue-400 mb-1 sm:mb-2">Topics</div>
-                <p className="text-xs sm:text-base text-gray-400">Arrays, DP, Graphs</p>
+                <p className="text-xs sm:text-base text-gray-400">Arrays, Recursion, BST, Etc</p>
               </div>
             </div>
           </div>
